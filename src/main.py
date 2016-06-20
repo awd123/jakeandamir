@@ -1,4 +1,4 @@
 #!/usr/bin/env python3
-import ch_api
+import ch_api as ch
 
-video = net.getvideo("7017501/last-jake-and-amir-episode-ever")
+video = ch.getvideo("7017501/last-jake-and-amir-episode-ever")
