@@ -11,7 +11,7 @@ class Video:
     def __init__(self, vid_id):
         self.vid_id = vid_id
 
-    def get():
+    def get(self):
         """returns a Response object of the video specified by vid_id"""
         apiparams = {"url": "http://www.collegehumor.com/video/{}".format(self.vid_id)}
 
