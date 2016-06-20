@@ -5,7 +5,6 @@ Classes:
 Video(vid_id)
 """
 import requests # Function for making and accessing HTTP requests
-from urllib.parse import urlencode # URL parsing and encoding
 
 class Video:
     def __init__(self, vid_id):
