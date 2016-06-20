@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json # JSON functions
 import ch_api as ch # CollegeHumor API functions
+import gui # GUI functions
 
 video = ch.Video("7017501/last-jake-and-amir-episode-ever")
 
