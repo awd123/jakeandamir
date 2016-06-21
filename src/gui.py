@@ -1,6 +1,6 @@
 """Provides methods for creating a GUI with Tkinter"""
 import tkinter as tk
-from PIL import Image, ImageTK
+from PIL import Image, ImageTk
 
 class Gui:
     def __init__(self, title="New Window"):
